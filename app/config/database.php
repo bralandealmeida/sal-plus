@@ -76,11 +76,11 @@ class DATABASE_CONFIG {
 	var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
-		'host' => 'localhost',
+		'host' => 'sal-plus-db',
 		'login' => 'root',
-		'password' => '',
-		'database' => 'sal',
-                'encoding' => 'utf8'
+		'password' => 'root',
+		'database' => 'database',
+		'encoding' => 'utf8'
 	);
 
 }
